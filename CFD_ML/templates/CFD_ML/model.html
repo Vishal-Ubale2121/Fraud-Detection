@@ -1,0 +1,104 @@
+{% extends "AI_Fraud_Detection/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="col-lg-6 mb-4">
+  <form method="POST" enctype="multipart/form-data" action="prediction">
+      {% csrf_token %}
+      <fieldset class="form-group">
+          <legend class="border-bottom mb-4 text-white">False Positive Optimization</legend>
+          <p class="m-0 text-white">
+            To optimize the false positive alerts, please upload the transaction extract generated from the AML tool with the customer details of potential suspicious alerts.                  
+          </p>
+          <p class="m-0 text-white">
+            AFPro leverages ML to optimize the alerts and reduce false positives which can then further be closed in the AML system.
+          </p><br>                
+              <input type='file' name="document" class="btn btn-outline-info">  
+              {% if prediction %}                  
+              <div class="border-top pt-3">
+                  <small class="text-muted">File Name : {{uploaded_file.name}}</small>
+              </div>
+              {% endif %}                                    
+      </fieldset>
+      <div class="form-group">
+          <button style="background-color: #4CAF50;border: none;
+          color: white;padding: 15px 32px;text-align: center;
+          text-decoration: none;display: inline-block;font-size: 16px; border-radius: 8px;" 
+          type="submit" >
+            Classify
+          </button>
+      </div>
+  </form>
+  {% if prediction %}
+
+    <div class="row mt-4 mb-3">
+      <p>
+        <mark>False positive percentage reduced <kbd>{{fp_percent}}</kbd></mark>
+      </p>
+      <table class="table table-light table-striped">
+        <thead> 
+          <tr> 
+            <th>Classification</th> 
+            <th>Count</th>                   
+          </tr> 
+        </thead> 
+        <tbody> 
+          <tr> 
+            <td>False Positive</td> 
+            <td>
+              {{fp_count}}
+            </td>                   
+          </tr>
+          <tr> 
+            <!--<td>Fraud</td> -->
+            <td>Suspicious</td>
+            <td>
+              {{f_count}}
+            </td>                   
+          </tr>
+          <tr> 
+            <td>New Customer</td> 
+            <td>
+              {{n_count}}
+            </td>                   
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <!--<img src="/media/graph.png" height="400">-->
+      {% autoescape off %}
+      {{ plot_div }}
+      {% endautoescape %}
+    </div>
+  
+  <h3>Classification Data</h3>
+  <small>
+    <a href="/media/output.csv">Download file</a>
+  </small>
+  <table class="table table-light table-striped"> 
+      <thead> 
+        <tr> 
+          <th>First Name</th> 
+          <th>Last Name</th> 
+          <th>Classification</th> 
+        </tr> 
+      </thead> 
+      <tbody> 
+      <!-- jinja2 Technique -->
+          
+      {% for i in prediction %} 
+        <tr> 
+          <td>{{i.First_Name}}</td> 
+          <td>{{i.Last_Name}}</td> 
+          <td>{{i.label}}</td>
+        </tr> 
+      {% endfor %} 
+  {% endif %} 
+      </tbody> 
+    </table> 
+<div class="row">
+      <br><br><br>
+</div>
+</div>
+{% endblock content %}

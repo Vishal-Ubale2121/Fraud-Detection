@@ -1,0 +1,6 @@
+1. The correlation matrix provides the insight of the correlation between two variables. The main aim of this matrix is to eliminate highly correlated variables. By doing this we improve the output of the machine learning model as it solves the multicollinearity issue.
+
+2. A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. From this matrix we get the True Positive, False Positive, True Negetive and the False Negetive counts. 
+
+Depending upon the requirement of the problem, these parameters can be tuned in the direction we need. 
+Example: If you're building a model to determine whether you should block (where blocking is a 1 and not blocking is a 0) a customer's transactions or not based on his past transaction behaviour in order to identify frauds, you'd care more about getting the 0's right. This is because you might not want to wrongly block a good customer's transactions as it might lead to a very bad customer experience.

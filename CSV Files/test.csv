@@ -1,0 +1,35 @@
+﻿First_Name,Last_Name,DOB,Customer_Type,PAN,Deceased_Flag,Product Name,Gender,Martial_Status,PEP_Flag,CTF_Flag,Country_of_residence,Country_of_Origin,Risk_level
+asdsad,fdgdfgdfg,07-12-1965,3,513963069,TRUE,P1,M,Married,TRUE,TRUE,North Korea,China,Medium
+SAED,aaaaaa,07-12-1965,3,513963069,TRUE,P2,M,Married,TRUE,TRUE,North Korea,China,Medium
+SAED,ELHOORIE,07-12-1965,3,513963069,TRUE,P3,M,Married,TRUE,TRUE,North Korea,China,Low
+SAJID,MIR,18-09-1978,1,712244881,TRUE,P4,M,Not Married,FALSE,FALSE,Pakistan,Pakistan,Medium
+ABD,AWDA,22-12-1950,1,195875084,TRUE,P5,M,Married,TRUE,TRUE,Syria,Pakistan,Medium
+DANIEL,ANDREAS,20-03-1978,3,371830649,TRUE,P6,M,Married,FALSE,FALSE,United States,United States,Low
+HUSAM,ABDALRAUF,13-08-1958,1,358392608,FALSE,P7,M,Married,TRUE,FALSE,Egypt,Egypt,Medium
+JABER,ELBANEH,06-06-1966,1,263125394,FALSE,P8,M,Married,FALSE,TRUE,Yemen,Russia,High
+IBRAHIM,SALIH,14-10-1966,1,113728228,FALSE,P9,M,Not Married,TRUE,TRUE,Russia,SauDiArabia,High
+Nicolea,Hanse,28-01-1988,2,552973761,FALSE,P10,F,Married,FALSE,FALSE,Thailand,Peru,High
+Donica,Rishworth,10-07-1992,2,474602354,FALSE,P11,F,Married,FALSE,FALSE,Portugal,Russia,High
+Hyacinthe,Goodding,30-01-2005,5,452023261,FALSE,P12,M,Married,FALSE,FALSE,China,Indonesia,High
+Kira,Leguay,25-02-2008,3,356024099,FALSE,P13,M,Married,FALSE,FALSE,Namibia,Vietnam,High
+Niels,Santi,12-04-1975,3,736196369,FALSE,P14,M,Not Married,FALSE,FALSE,Greece,Finland,Low
+Delphine,Asbrey,24-03-2000,4,636970510,FALSE,P15,F,Not Married,FALSE,FALSE,Poland,Somalia,Low
+Lowe,Tebboth,16-09-1977,5,195035588,FALSE,P16,F,Not Married,FALSE,FALSE,China,China,Low
+Romy,Hissie,28-11-1986,3,617360670,FALSE,P17,F,Married,FALSE,FALSE,Ukraine,China,Low
+Bat,Gumey,06-12-1976,4,871350748,FALSE,P1,M,Married,FALSE,FALSE,Czech Republic,Russia,High
+Donavon,Filippo,14-05-2015,4,272023109,FALSE,P2,M,Not Married,FALSE,FALSE,China,China,Low
+Cordie,Burdon,01-12-1975,4,152618255,FALSE,P3,F,Not Married,FALSE,FALSE,Bangladesh,Burundi,High
+Roger,Tomley,23-08-1977,5,876795517,FALSE,P4,F,Not Married,FALSE,FALSE,Brazil,Madagascar,Low
+Nani,Issard,13-11-1975,4,639568947,FALSE,P5,F,Married,FALSE,FALSE,Central African Republic,Indonesia,Low
+Abeu,Aspenlon,27-04-1998,3,542651258,FALSE,P6,F,Married,FALSE,FALSE,China,Tajikistan,Low
+Hayyim,Bockings,19-10-2010,4,591192886,FALSE,P7,M,Married,FALSE,FALSE,Ukraine,El Salvador,Medium
+Elijah,Girod,29-05-1988,5,432500808,FALSE,P8,M,Not Married,FALSE,FALSE,China,Thailand,Low
+Pearce,Hinsche,18-11-2004,2,261813323,FALSE,P9,M,Not Married,FALSE,FALSE,Philippines,Japan,High
+Karin,Doni,21-01-2001,3,484794114,FALSE,P10,M,Married,FALSE,FALSE,Russia,Mexico,Low
+Donall,Murdy,08-02-2006,5,679507508,FALSE,P11,M,Married,FALSE,FALSE,France,Russia,Low
+Rodrique,Cathery,21-07-1975,2,383100320,FALSE,P12,M,Not Married,FALSE,FALSE,Russia,United States,High
+Jenine,Hansed,03-08-2010,5,420375146,FALSE,P13,F,Not Married,FALSE,FALSE,China,Cyprus,Medium
+Grace,Robinet,10-04-2004,5,296801024,FALSE,P14,F,Not Married,FALSE,FALSE,France,China,Low
+Llewellyn,Collingwood,31-05-1979,3,528758689,FALSE,P15,F,Not Married,FALSE,FALSE,Indonesia,Thailand,Medium
+Keely,Covil,04-09-1978,2,291162749,FALSE,P16,F,Not Married,FALSE,FALSE,Russia,Philippines,Low
+Elisa,Arnecke,16-08-1977,2,706479192,FALSE,Securities,M,Not Married,FALSE,FALSE,Thailand,China,Low

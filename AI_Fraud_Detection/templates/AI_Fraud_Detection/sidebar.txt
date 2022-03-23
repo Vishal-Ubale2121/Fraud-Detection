@@ -1,0 +1,59 @@
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+          <!-- Search Widget -->
+          <div class="card mb-4">
+          <h5 class="card-header">Tags</h5>
+            <div class="card-body">
+                <img src="/media/DRR.PNG">
+            </div>
+          </div>
+          <!-- Categories Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-10">
+                      <ul class="list-unstyled mb-0">
+                      <li>
+                          <a href="{% url 'classify' %}">Customer Fraud Detection</a>
+                      </li>
+                      <li>
+                          <a href="{% url 'lookup' %}">Customer Single Lookup</a>
+                      </li>
+                      <li>
+                          <a href="#">Payment Fraud Detection</a>
+                      </li>
+                      <li>
+                          <a href="#">Payment Single Lookup</a>
+                      </li>
+                      </ul>
+                  </div>              
+                </div>
+            </div>
+          </div>
+          <!-- References Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">References</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                            <a href="#"></a>
+                            </li>
+                            <li>
+                            <a href="#"></a>
+                            </li>
+                            <li>
+                            <a href="#"></a>
+                            </li>
+                            <li>
+                            <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>    
+        </div>
